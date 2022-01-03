@@ -1,0 +1,15 @@
+.clockTooltip {
+  position: relative;
+  display: block;
+}
+
+.clockTooltip .clockTooltipText {
+  width: 120px;
+  background-color: white;
+  color: #000000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 20;
+}
