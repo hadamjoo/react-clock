@@ -1,2 +1,20 @@
-# react-clock
-clock with divergence of react state management
+# Getting Started with Create React App
+
+This project was toy project making a clock with state management.
+
+using a useState without specific state management tool
+
+such as mobx, redux, context api, recoil
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `yarn start`
+
+Runs the app in the development mode.\
+Open [http://localhost:300](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
