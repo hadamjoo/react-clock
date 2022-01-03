@@ -1,0 +1,141 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+}
+
+body {
+  background: rgb(238, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wallClock {
+  transform-origin: 50%;
+  display: flex;
+  width: 400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: -8px 8px 15px rgba(225, 225, 225, 0.05),
+    20px 20px 20px rgba(0, 0, 0, 0.2),
+    inset -8px -8px 15px rgba(225, 225, 225, 0.05),
+    inset 20px 20px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 10;
+}
+
+.wallClock .number::after {
+  content: '';
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 11;
+}
+
+.wallClock .number {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform: rotate(var(--roation));
+  font-size: 1.5rem;
+  padding: 18px;
+}
+
+.wallClock .number::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 15px;
+  background-color: black;
+}
+
+.wallClock .num1 {
+  --roation: 30deg;
+}
+
+.wallClock .num2 {
+  --roation: 60deg
+}
+
+.wallClock .num3 {
+  --roation: 90deg
+}
+
+.wallClock .num4 {
+  --roation: 120deg
+}
+
+.wallClock .num5 {
+  --roation: 150deg
+}
+
+.wallClock .num6 {
+  --roation: 180deg
+}
+
+.wallClock .num7 {
+  --roation: 210deg
+}
+
+.wallClock .num8 {
+  --roation: 240deg
+}
+
+.wallClock .num9 {
+  --roation: 270deg
+}
+
+.wallClock .num10 {
+  --roation: 300deg
+}
+
+.wallClock .num11 {
+  --roation: 330deg
+}
+
+.wallClock .second {
+  top: 10%;
+  left: 46%;
+  width: 5px;
+  position: relative;
+  height: 80%;
+  background-color: red;
+  border-radius: 100% 0% 0% 0%;
+}
+
+.wallClock .minute {
+  top: 15%;
+  left: 48%;
+  width: 7px;
+  position: relative;
+  height: 70%;
+  background-color: black;
+  overflow: hidden;
+  z-index: 10;
+  border-radius: 100% 0% 0% 0%;
+}
+
+.wallClock .hour {
+  top: 25%;
+  left: 50%;
+  width: 8px;
+  height: 50%;
+  position: relative;
+  background-color: rgb(41, 40, 40);
+  border-radius: 100% 0% 0% 0%;
+  overflow: hidden;
+  z-index: 20;
+  border-radius: 100% 0% 0% 0%;
+}
