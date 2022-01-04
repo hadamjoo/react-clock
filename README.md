@@ -2,9 +2,14 @@
 
 This project was toy project making a clock with state management.
 
-using a useState without specific state management tool
+branch
 
-such as mobx, redux, context api, recoil
+- useState (not using state management library)
+- recoil
+- context api
+- redux
+- mobx
+
 
 ## Available Scripts
 
