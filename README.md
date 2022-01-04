@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was toy project making a clock with state management.
+This project was toy project making a clock with state management using recoil.
 
 branch
 
@@ -9,7 +9,6 @@ branch
 - context api
 - redux
 - mobx
-
 
 ## Available Scripts
 
