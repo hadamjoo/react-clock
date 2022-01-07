@@ -2,17 +2,6 @@
 
 This project was toy project making a clock with state management using recoil.
 
-branch
-
-done
-- useState (not using state management library)
-- recoil
-
-will update
-- context api
-- redux
-- mobx
-
 ## Available Scripts
 
 In the project directory, you can run:
