@@ -1,11 +1,14 @@
 # Getting Started with Create React App
 
-This project was toy project making a clock with state management using recoil.
+This project was toy project making a clock with variety react state management tools.
 
 branch
 
+done
 - useState (not using state management library)
 - recoil
+
+will update
 - context api
 - redux
 - mobx
