@@ -17,6 +17,11 @@ will update
 
 In the project directory, you can run:
 
+After first clone please 
+yarn
+or
+yarn install
+
 ### `yarn start`
 
 Runs the app in the development mode.\
