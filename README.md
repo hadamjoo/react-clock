@@ -4,7 +4,7 @@ This project was toy project making a clock with state management using recoil.
 
 branch
 
-done with
+done
 - useState (not using state management library)
 - recoil
 
