@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useRecoilValue } from "recoil"
 import MouseTooltip from 'react-sticky-mouse-tooltip';
 import { clockAtom } from '../atom.js';
-import './ClockTooltipText.css';
+import './ClockTooltip.css';
 
 export const ClockTooltip = ({ children }) => {
   const { hour, minute, second } = useRecoilValue(clockAtom);
@@ -22,5 +22,3 @@ export const ClockTooltip = ({ children }) => {
     </div>
   );
 }
-
-export default ClockTooltip;
