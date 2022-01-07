@@ -4,8 +4,11 @@ This project was toy project making a clock with state management using recoil.
 
 branch
 
+done with
 - useState (not using state management library)
 - recoil
+
+will update
 - context api
 - redux
 - mobx
