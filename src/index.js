@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Clock from './Clock';
+import { RecoilRoot } from "recoil";
+import Clock from "./Clock";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Clock />
+    <RecoilRoot>
+      <Clock />
+    </RecoilRoot>
   </React.StrictMode>,
   document.getElementById('root')
 );

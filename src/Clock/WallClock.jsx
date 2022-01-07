@@ -25,5 +25,3 @@ export const WallClock = () => {
     </div>
   );
 }
-
-export default WallClock;
